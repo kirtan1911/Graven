@@ -14,8 +14,9 @@ export default function Hero() {
   const opacity = useTransform(scrollYProgress, [0, 0.8], [1, 0]);
   const scale = useTransform(scrollYProgress, [0, 1], [1, 1.1]);
 
-  // Using a premium placeholder portrait. The user will replace this.
-  const PORTRAIT_URL = "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=1287&auto=format&fit=crop";
+  // Using the user's provided portrait.
+  // The image should be saved in the `public` folder as `portrait.jpg`.
+  const PORTRAIT_URL = "/portrait.jpg";
 
   return (
     <section 
@@ -82,7 +83,7 @@ export default function Hero() {
               <img 
                 src={PORTRAIT_URL} 
                 alt="Barot Kirtan Portrait" 
-                className="w-full h-full object-cover rounded-[1.5rem] filter grayscale contrast-125 brightness-90 transition-all duration-700 group-hover:grayscale-0"
+                className="w-full h-full object-cover rounded-[1.5rem] filter contrast-110 brightness-95 transition-all duration-700 group-hover:brightness-105"
               />
             </motion.div>
           </motion.div>
