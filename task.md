@@ -1,0 +1,15 @@
+- [x] Install dependencies (`framer-motion`, `clsx`, `tailwind-merge`)
+- [x] Setup global styles and variables in `index.css`
+- [x] Create UI components (Button, Typography, etc.)
+- [x] Create Navigation section
+- [x] Create Hero section
+- [ ] Create About section
+- [ ] Create Skills/Technology section
+- [ ] Create Projects section
+- [ ] Create Services section
+- [ ] Create Contact section
+- [ ] Create Footer section
+- [ ] Assemble `App.jsx` and refactor `main.jsx`
+- [ ] Refine micro-interactions and custom cursor
+- [ ] Verify responsiveness and visual polish
+- [ ] Git commit and push
